@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zidane's CV Website</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <img id="portrait" src="assets\images\IMG-20220919-WA0001.jpg" alt="My Profile Photo" title="That's me!" width="200" />
+      <p class="paragraph">Hello! My name is Zidane Assmawi and I am an undergraduate student attending Universiti Teknologi PETRONAS. I graduated abroad from Ashgabat International Highschool with an American High School Diploma.</p>
+    </section>
+
+    <section class="edu" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>2024 - Present: Bachelor of Information Systems, Universiti Teknologi PETRONAS</li>
+        <li>2022 - 2024: American High School Diploma, Ashgabat International School</li>
+      </ul>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <ol>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Photoshop, MS Excel, MS Word</li>
+        <li>Piano, Guitar, Drums</li>
+        <li>Sales, Marketing</li>
+      </ol>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <p>Here are a few things I've worked on:</p>
+      <ul>
+        <li>Portfolio Website</li>
+        <li>Myself</li>
+        <li>4-Figure Online Business at the age of 14</li>
+      </ul>
+      <button onclick="downloadCV()" title="Download my CV">Download CV</button>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Information</h2>
+      <p>Email: mzidane020306@gmail.com</p>
+      <div class="social-buttons">
+        <a href="https://github.com/zidaneassmawi/cv-website">
+          <img id="github" src="assets/images/githubblack.png" width="40px" height="40px" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/zidane-assmawi-2095ab197/">
+          <img id="linkedin" src="assets/images/linkedinblack.png" width="50px" height="50px" alt="LinkedIn">
+        </a>
+      </div>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zidane Assmawi. All rights reserved.</p>
+    <button id="toggleDarkMode">Toggle Dark Mode</button>
+  </footer>
+</body>
+</html>
